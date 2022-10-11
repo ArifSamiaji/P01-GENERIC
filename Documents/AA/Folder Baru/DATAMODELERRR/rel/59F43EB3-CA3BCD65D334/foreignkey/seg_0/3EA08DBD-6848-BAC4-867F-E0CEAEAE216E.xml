@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3EA08DBD-6848-BAC4-867F-E0CEAEAE216E" containerWithKeyObject="5279D5B7-06EA-CAE5-1850-550ACCD1581D" localFKIndex="072827A3-FB37-46F8-33EF-3241B42E200B" name="Transaksi_KARYAWAN_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>34F7D273-F6CB-8B2A-6334-B0D0138167E7</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<referredTableLongName>KARYAWAN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>46C05EB4-6133-1A10-E562-7A237FFC4FD2</referredTableID>
+<keyObject>053BB9A6-763B-B516-C1F8-F6C905808A8A</keyObject>
+<referredKeyID>053BB9A6-763B-B516-C1F8-F6C905808A8A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_karyawan,Nama,JK,No_HP,Alamat,Email,Posisi,Tanggal_Lahir</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

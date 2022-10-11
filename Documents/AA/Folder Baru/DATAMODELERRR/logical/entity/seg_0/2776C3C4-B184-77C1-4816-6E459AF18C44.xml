@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2776C3C4-B184-77C1-4816-6E459AF18C44" name="KARYAWAN">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:07:14 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_karyawan" id="6E34DC7A-9B25-D9AB-FE3E-39AD99CBE6D0">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:07:40 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama" id="73C12E0A-4DAA-41A4-2277-377F7264E70C">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:08:10 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JK" id="45F7DF28-72BF-2047-DF8E-9755D02F6ACF">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:08:20 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No.HP" id="D29E9918-44D5-D294-A2B2-22ED9D20CDE5">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:08:25 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Alamat" id="BA421285-4F72-1B38-49F6-52861B7ADBA8">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:08:39 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="7B867478-6341-9DF8-02C7-67DCB975B34C">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:09:15 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Posisi" id="184AF0B3-1A0B-90E4-77CA-353AF59D05F2">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:09:39 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal Lahir" id="4C40AF02-09F2-D4E4-ABF6-135E1BEFFA01">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:09:48 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C12FB2CB-C7A4-2C0A-864F-D8965C7132F2" name="Entity_7 PK">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:07:52 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E34DC7A-9B25-D9AB-FE3E-39AD99CBE6D0</attributeRef>
+<attributeRef>73C12E0A-4DAA-41A4-2277-377F7264E70C</attributeRef>
+<attributeRef>45F7DF28-72BF-2047-DF8E-9755D02F6ACF</attributeRef>
+<attributeRef>D29E9918-44D5-D294-A2B2-22ED9D20CDE5</attributeRef>
+<attributeRef>BA421285-4F72-1B38-49F6-52861B7ADBA8</attributeRef>
+<attributeRef>7B867478-6341-9DF8-02C7-67DCB975B34C</attributeRef>
+<attributeRef>184AF0B3-1A0B-90E4-77CA-353AF59D05F2</attributeRef>
+<attributeRef>4C40AF02-09F2-D4E4-ABF6-135E1BEFFA01</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

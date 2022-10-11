@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="684CED90-B066-5664-661B-5472C4814A4C" name="Produk">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>3EFCC9BD-87A2-DC80-8608-1BF642C081C8</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Produk" id="7479E09C-A503-A955-A6C9-165EE38EFC04">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>F06C3513-7552-231D-9D79-152F786AB9CA</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Produk" id="B3F5FF80-2CE8-D9AB-6FDE-F054CA81DE27">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>FB88B4A5-34CE-CA30-9A70-240C687A1823</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Harga" id="A56A82DD-74A6-8739-AE05-7F5FA9BBCD29">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>2F085692-7AF2-1246-6CFA-4023B5E64B86</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jenis_Produk" id="128A5F65-7F92-FC23-6B89-7EE39B876268">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>631646E5-8D43-F441-AD30-8579455FF54E</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F9F17B9-D3DB-BD79-CBFF-465811728864" name="Produk_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>C41ADDD1-80BC-2A4A-6F66-3AB1C9D437E8</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7479E09C-A503-A955-A6C9-165EE38EFC04"/>
+<colUsage columnID="B3F5FF80-2CE8-D9AB-6FDE-F054CA81DE27"/>
+<colUsage columnID="A56A82DD-74A6-8739-AE05-7F5FA9BBCD29"/>
+<colUsage columnID="128A5F65-7F92-FC23-6B89-7EE39B876268"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

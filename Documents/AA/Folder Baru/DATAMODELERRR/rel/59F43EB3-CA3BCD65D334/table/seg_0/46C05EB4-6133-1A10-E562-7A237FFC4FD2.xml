@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46C05EB4-6133-1A10-E562-7A237FFC4FD2" name="KARYAWAN">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>2776C3C4-B184-77C1-4816-6E459AF18C44</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_karyawan" id="E491A2D7-1787-C86D-1949-1868806651A8">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>6E34DC7A-9B25-D9AB-FE3E-39AD99CBE6D0</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama" id="B3B801B0-1DD8-C486-1F6D-0C059E5E1034">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>73C12E0A-4DAA-41A4-2277-377F7264E70C</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JK" id="A2A9B8DB-29DA-0613-30C9-9CEE5904D4ED">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>45F7DF28-72BF-2047-DF8E-9755D02F6ACF</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="No_HP" id="DA205A2E-6409-6EDC-68BC-E920DB6046E7">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>D29E9918-44D5-D294-A2B2-22ED9D20CDE5</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alamat" id="0B0627B6-D7BE-FC2D-133F-56DE2FD24031">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>BA421285-4F72-1B38-49F6-52861B7ADBA8</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="0C1A1BE9-28C2-8185-C24E-A253B1E51469">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>7B867478-6341-9DF8-02C7-67DCB975B34C</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Posisi" id="C5496AA9-B9E5-3B5A-1EA1-E9D80843C5A3">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>184AF0B3-1A0B-90E4-77CA-353AF59D05F2</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal_Lahir" id="09480A3B-2048-775A-66FD-F731A1AA7E86">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>4C40AF02-09F2-D4E4-ABF6-135E1BEFFA01</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="053BB9A6-763B-B516-C1F8-F6C905808A8A" name="KARYAWAN_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>C12FB2CB-C7A4-2C0A-864F-D8965C7132F2</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E491A2D7-1787-C86D-1949-1868806651A8"/>
+<colUsage columnID="B3B801B0-1DD8-C486-1F6D-0C059E5E1034"/>
+<colUsage columnID="A2A9B8DB-29DA-0613-30C9-9CEE5904D4ED"/>
+<colUsage columnID="DA205A2E-6409-6EDC-68BC-E920DB6046E7"/>
+<colUsage columnID="0B0627B6-D7BE-FC2D-133F-56DE2FD24031"/>
+<colUsage columnID="0C1A1BE9-28C2-8185-C24E-A253B1E51469"/>
+<colUsage columnID="C5496AA9-B9E5-3B5A-1EA1-E9D80843C5A3"/>
+<colUsage columnID="09480A3B-2048-775A-66FD-F731A1AA7E86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

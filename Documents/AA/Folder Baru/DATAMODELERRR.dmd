@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DATAMODELERRR" id="C204ABBA-A4A1-252E-7746-F40E295627EA" version="3.5">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 03:55:57 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C204ABBA-A4A1-252E-7746-F40E295627EA</designId>
+</OSDM_Design>

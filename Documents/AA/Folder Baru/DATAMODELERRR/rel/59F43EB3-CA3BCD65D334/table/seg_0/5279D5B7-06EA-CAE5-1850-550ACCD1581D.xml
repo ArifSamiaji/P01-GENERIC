@@ -1,0 +1,222 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5279D5B7-06EA-CAE5-1850-550ACCD1581D" name="Transaksi">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>93C574D0-1AB6-CB9D-8FC5-F2A7449A77AB</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Transaksi" id="D5A6DE51-1DD3-60A0-A345-1EB9E3DD44D4">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>75F81266-A948-8661-9742-BFE16C541213</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal" id="2F68AB3A-6D03-FBDA-66A2-C121860D97B6">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>CBC9D2D9-10A1-2158-64D8-A03DA5A6A9DE</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KARYAWAN_id_karyawan" id="B5537399-A05D-54B1-0E20-3DB06487A722">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>AFF9E1DF-B1E2-E040-9708-D8298B5D56C0</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EA08DBD-6848-BAC4-867F-E0CEAEAE216E" referredColumn="E491A2D7-1787-C86D-1949-1868806651A8"/>
+</associations>
+</Column>
+<Column name="KARYAWAN_Nama" id="DCEA332A-855A-DCF7-39F5-03A4F9CF8CED">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>333E13AC-786C-E2DE-08DB-B16086F5D13F</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EA08DBD-6848-BAC4-867F-E0CEAEAE216E" referredColumn="B3B801B0-1DD8-C486-1F6D-0C059E5E1034"/>
+</associations>
+</Column>
+<Column name="KARYAWAN_JK" id="11051591-85D9-C922-DD03-1F628E277994">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>E80E36DC-0927-7B58-4908-F908807FAE81</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EA08DBD-6848-BAC4-867F-E0CEAEAE216E" referredColumn="A2A9B8DB-29DA-0613-30C9-9CEE5904D4ED"/>
+</associations>
+</Column>
+<Column name="KARYAWAN_No_HP" id="F5044029-8F02-0004-4956-9FD554AAF13C">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>F7BD04EE-7B0C-80EC-44CD-B92209058257</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EA08DBD-6848-BAC4-867F-E0CEAEAE216E" referredColumn="DA205A2E-6409-6EDC-68BC-E920DB6046E7"/>
+</associations>
+</Column>
+<Column name="KARYAWAN_Alamat" id="A3F9DA2B-D8C6-E9BD-4EF3-3313DC2CC063">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>DD93EB51-E848-904E-BC97-F53569560852</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EA08DBD-6848-BAC4-867F-E0CEAEAE216E" referredColumn="0B0627B6-D7BE-FC2D-133F-56DE2FD24031"/>
+</associations>
+</Column>
+<Column name="KARYAWAN_Email" id="335F8AB6-5489-3237-B188-C6B774540413">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>45A3970D-7A50-EA79-07B1-B64F5897B7E0</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EA08DBD-6848-BAC4-867F-E0CEAEAE216E" referredColumn="0C1A1BE9-28C2-8185-C24E-A253B1E51469"/>
+</associations>
+</Column>
+<Column name="KARYAWAN_Posisi" id="0C2BB5AF-62A4-4377-B80A-E46BC0E96FFD">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>B38F2CAE-9C38-D0E5-088D-FD7A0BB31E66</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EA08DBD-6848-BAC4-867F-E0CEAEAE216E" referredColumn="C5496AA9-B9E5-3B5A-1EA1-E9D80843C5A3"/>
+</associations>
+</Column>
+<Column name="KARYAWAN_Tanggal_Lahir" id="79AA9847-C2EF-98AF-770D-39B10FF979D5">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>7FD39E83-A7D4-BF98-66D3-4574EB893C2C</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EA08DBD-6848-BAC4-867F-E0CEAEAE216E" referredColumn="09480A3B-2048-775A-66FD-F731A1AA7E86"/>
+</associations>
+</Column>
+<Column name="KONSUMEN_id_konsumen" id="105E581C-6534-4412-C1A1-348B248264E6">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>C0CD0163-7734-7B5F-6386-8DAD80AA8FA8</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FECD9535-985C-5097-2385-F85156F04760" referredColumn="94CA15DA-C16E-047A-438C-F7400BDE3A54"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6507B2B1-8F44-622B-3840-651A6D4D2C35" name="Transaksi_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>D53F8C6B-CAEA-090A-7244-0544E56E426D</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5A6DE51-1DD3-60A0-A345-1EB9E3DD44D4"/>
+<colUsage columnID="2F68AB3A-6D03-FBDA-66A2-C121860D97B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB3639F6-20B5-089B-9D0A-55D1FDF19223" name="Transaksi_KONSUMEN_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>E4F39102-D116-3AEE-1669-8EC1D793EDE8</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="105E581C-6534-4412-C1A1-348B248264E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="072827A3-FB37-46F8-33EF-3241B42E200B" name="Transaksi_KARYAWAN_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:42:24 UTC</createdTime>
+<generatorID>34F7D273-F6CB-8B2A-6334-B0D0138167E7</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5537399-A05D-54B1-0E20-3DB06487A722"/>
+<colUsage columnID="DCEA332A-855A-DCF7-39F5-03A4F9CF8CED"/>
+<colUsage columnID="11051591-85D9-C922-DD03-1F628E277994"/>
+<colUsage columnID="F5044029-8F02-0004-4956-9FD554AAF13C"/>
+<colUsage columnID="A3F9DA2B-D8C6-E9BD-4EF3-3313DC2CC063"/>
+<colUsage columnID="335F8AB6-5489-3237-B188-C6B774540413"/>
+<colUsage columnID="0C2BB5AF-62A4-4377-B80A-E46BC0E96FFD"/>
+<colUsage columnID="79AA9847-C2EF-98AF-770D-39B10FF979D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

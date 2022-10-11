@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93C574D0-1AB6-CB9D-8FC5-F2A7449A77AB" name="Transaksi">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:29:24 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id Transaksi" id="75F81266-A948-8661-9742-BFE16C541213">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:29:35 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal" id="CBC9D2D9-10A1-2158-64D8-A03DA5A6A9DE">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:29:56 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_karyawan" id="AFF9E1DF-B1E2-E040-9708-D8298B5D56C0">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:34:27 UTC</createdTime>
+<generatorID>34F7D273-F6CB-8B2A-6334-B0D0138167E7</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<referedAttribute>6E34DC7A-9B25-D9AB-FE3E-39AD99CBE6D0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama" id="333E13AC-786C-E2DE-08DB-B16086F5D13F">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:34:27 UTC</createdTime>
+<generatorID>34F7D273-F6CB-8B2A-6334-B0D0138167E7</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<referedAttribute>73C12E0A-4DAA-41A4-2277-377F7264E70C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JK" id="E80E36DC-0927-7B58-4908-F908807FAE81">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:34:27 UTC</createdTime>
+<generatorID>34F7D273-F6CB-8B2A-6334-B0D0138167E7</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<referedAttribute>45F7DF28-72BF-2047-DF8E-9755D02F6ACF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No.HP" id="F7BD04EE-7B0C-80EC-44CD-B92209058257">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:34:27 UTC</createdTime>
+<generatorID>34F7D273-F6CB-8B2A-6334-B0D0138167E7</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<referedAttribute>D29E9918-44D5-D294-A2B2-22ED9D20CDE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Alamat" id="DD93EB51-E848-904E-BC97-F53569560852">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:34:27 UTC</createdTime>
+<generatorID>34F7D273-F6CB-8B2A-6334-B0D0138167E7</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<referedAttribute>BA421285-4F72-1B38-49F6-52861B7ADBA8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="45A3970D-7A50-EA79-07B1-B64F5897B7E0">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:34:27 UTC</createdTime>
+<generatorID>34F7D273-F6CB-8B2A-6334-B0D0138167E7</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<referedAttribute>7B867478-6341-9DF8-02C7-67DCB975B34C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Posisi" id="B38F2CAE-9C38-D0E5-088D-FD7A0BB31E66">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:34:27 UTC</createdTime>
+<generatorID>34F7D273-F6CB-8B2A-6334-B0D0138167E7</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<referedAttribute>184AF0B3-1A0B-90E4-77CA-353AF59D05F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal Lahir" id="7FD39E83-A7D4-BF98-66D3-4574EB893C2C">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:34:27 UTC</createdTime>
+<generatorID>34F7D273-F6CB-8B2A-6334-B0D0138167E7</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<referedAttribute>4C40AF02-09F2-D4E4-ABF6-135E1BEFFA01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_konsumen" id="C0CD0163-7734-7B5F-6386-8DAD80AA8FA8">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:38:30 UTC</createdTime>
+<generatorID>E4F39102-D116-3AEE-1669-8EC1D793EDE8</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<referedAttribute>9D1022A4-1B46-A5C4-8E80-D8A12688ED76</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D53F8C6B-CAEA-090A-7244-0544E56E426D" name="Transaksi PK">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:29:43 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>75F81266-A948-8661-9742-BFE16C541213</attributeRef>
+<attributeRef>CBC9D2D9-10A1-2158-64D8-A03DA5A6A9DE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

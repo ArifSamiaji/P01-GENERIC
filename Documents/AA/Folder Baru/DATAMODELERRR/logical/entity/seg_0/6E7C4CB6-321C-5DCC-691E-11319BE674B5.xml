@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6E7C4CB6-321C-5DCC-691E-11319BE674B5" name="Detail Transaksi">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:32:45 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_debit" id="EA7CF1ED-44EB-EA07-A034-CAD1D00F4569">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:33:03 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jumlah" id="E80C047C-8788-CF54-F73F-C5907C49EFB1">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:33:33 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Transaksi" id="6EA4C5F7-F48B-6005-093B-7157F7C62A3D">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:36:40 UTC</createdTime>
+<generatorID>6D2CDF0D-05D0-1429-38E0-2EFDAF9225D7</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<referedAttribute>75F81266-A948-8661-9742-BFE16C541213</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal" id="0680D75D-0780-B0B9-8F35-77F172B6BBA4">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:36:40 UTC</createdTime>
+<generatorID>6D2CDF0D-05D0-1429-38E0-2EFDAF9225D7</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<referedAttribute>CBC9D2D9-10A1-2158-64D8-A03DA5A6A9DE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Produk" id="61968289-AF16-7D4E-CEDA-AE762787B2F9">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:37:07 UTC</createdTime>
+<generatorID>B1C92781-FEFC-595A-AE06-0B58719DD132</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<referedAttribute>F06C3513-7552-231D-9D79-152F786AB9CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama Produk" id="08CF0329-6F99-F7A1-FD64-051728EDA25D">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:37:07 UTC</createdTime>
+<generatorID>B1C92781-FEFC-595A-AE06-0B58719DD132</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<referedAttribute>FB88B4A5-34CE-CA30-9A70-240C687A1823</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Harga" id="0B76AB18-2B6C-7567-424C-7DE5078B6291">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:37:07 UTC</createdTime>
+<generatorID>B1C92781-FEFC-595A-AE06-0B58719DD132</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<referedAttribute>2F085692-7AF2-1246-6CFA-4023B5E64B86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jenis Produk" id="F907A640-AE19-845D-3A88-BEDCED130F99">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:37:07 UTC</createdTime>
+<generatorID>B1C92781-FEFC-595A-AE06-0B58719DD132</generatorID>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<referedAttribute>631646E5-8D43-F441-AD30-8579455FF54E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F8EA387C-9E71-8D11-B222-BAB76AC274D5" name="Detail Transaksi PK">
+<createdBy>Asus</createdBy>
+<createdTime>2022-10-11 04:33:24 UTC</createdTime>
+<ownerDesignName>DATAMODELERRR</ownerDesignName>
+<engineerTo>
+<item key="59F43EB3-2E83-CA52-A172-CA3BCD65D334" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA7CF1ED-44EB-EA07-A034-CAD1D00F4569</attributeRef>
+<attributeRef>E80C047C-8788-CF54-F73F-C5907C49EFB1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
